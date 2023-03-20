@@ -1,0 +1,273 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 10px solid rgb(0, 242, 255);
+    padding: 0px 50px;
+    /* margin: 20px; */
+}
+
+.logo span {
+    font-size: 14px;
+}
+
+
+.menu ul {
+    list-style-type: none;
+    /* margin: 10px; */
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+    border: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.6s;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(8, 155, 200);
+}
+
+
+/* contianer1 div  */
+.container1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 0 100px;
+}
+
+.land {
+    margin: 25px 0px;
+}
+
+.b {
+    text-align: justify;
+}
+
+.but {
+    margin: 20px 0px;
+}
+
+.button {
+    padding: 20px 30px;
+    cursor: pointer;
+    background-color: rgb(8, 155, 200);
+    font-style: bold;
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: rgb(8, 155, 200);
+    transition: 0.5s;
+    /* transition-duration: 2ms; */
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid rgb(8, 155, 200);
+    font-style: bold;
+}
+
+.buttons ul {
+    display: flex;
+    justify-content: end;
+}
+
+.buttons ul li {
+    display: block;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(8, 155, 200);
+    margin: 10px;
+    border-radius: 100%;
+}
+
+.buttons ul li:hover {
+    background-color: white;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+/* contianer--2 div  */
+
+.container2 {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    border-bottom: 2px solid grey;
+    padding: 50px 100px;
+
+    /* background-color: red; */
+}
+
+.grd2 {
+    padding-left: 20px;
+}
+
+.ch:hover {
+    text-decoration: underline;
+    /* transition: 0.4s; */
+    transition-duration: 0.3s;
+    color: blue;
+    cursor: pointer;
+
+}
+
+.c2g2 h2 {
+    /* color: rgb(8, 155, 200); */
+    /* text-shadow: 1px 5px 10px rgb(8, 155, 200) */
+}
+
+.ch {
+    margin: 10px 0px;
+}
+
+.cap {
+    text-align: justify;
+}
+
+.c2g1 {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c2g2 {
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c2g3 {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+/* ---------------------container--3 starts  */
+.container3 {
+    padding: 0 100px;
+    width: 100%;
+    /* height: 500px; */
+    margin-top: 20px;
+    /* max-width: 1140px;
+    margin: auto; */
+    /* display: flex; */
+}
+
+.head1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.body1 {
+    padding: 10px;
+}
+
+.grid-p1 {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin: 20px 10px;
+}
+
+.grid1{
+    display: flex;
+}
+
+.im img {
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid grey;
+    width: 100px;
+}
+
+.im-con{
+    padding-left: 20px;
+}
+
+
+/* footer section starts----------  */
+.container4{
+    background-color: rgb(45, 45, 45);
+}
+.footer{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-between;
+}
+
+.footer h2{
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    color: grey;
+}
+
+.ql a{
+    text-decoration: none;
+    color: rgb(0, 255, 204);
+}
+
+.nl input{
+    padding: 10px 25px;
+    background-color: rgb(102, 100, 100);
+    color: white ;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.nl button{
+        padding: 10px 20px;
+            cursor: pointer;
+            background-color: rgb(2, 196, 255);
+            font-style: bold;
+            text-decoration: none;
+            border: none;
+            color: white;
+            border-radius: 20px;
+}
+
+
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+}
