@@ -114,6 +114,8 @@
     cursor: pointer;
 }
 
+
+
 /* contianer--2 div  */
 
 .container2 {
@@ -123,6 +125,10 @@
     padding: 50px 100px;
 
     /* background-color: red; */
+}
+
+.grd1 {
+    margin: 20px;
 }
 
 .grd2 {
@@ -261,7 +267,7 @@
             border-radius: 20px;
 }
 
-
+/* copywrite section */
 
 .copyright {
     display: flex;
